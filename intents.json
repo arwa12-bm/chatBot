@@ -3,81 +3,117 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Salut",
-        "Hey",
-        "Comment ça va?",
-        "Y a-t-il quelqu'un?",
         "Bonjour",
-        "Bonne journée"
+        "Salut",
+        "Coucou",
+        "Hey",
+        "Bonjour, comment puis-je vous aider?"
       ],
       "responses": [
-        "Hey :-)",
-        "Bonjour, merci de votre visite",
-        "Salut, que puis-je faire pour vous?",
-        "Salut, comment puis-je vous aider?"
+        "Bonjour :-)",
+        "Salut! Bienvenue sur notre site de commande en ligne.",
+        "Hello! Comment puis-je vous assister aujourd'hui?",
+        "Bonjour! En quoi puis-je vous être utile?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Au revoir", "À plus tard", "Adieu"],
+      "patterns": [
+        "Au revoir",
+        "À bientôt",
+        "À la prochaine",
+        "Adieu"
+      ],
       "responses": [
-        "À plus tard, merci de votre visite",
-        "Bonne journée",
-        "Au revoir! Revenez bientôt."
+        "À bientôt! Merci de votre visite.",
+        "Passez une excellente journée!",
+        "Au revoir! À la prochaine fois!"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Merci beaucoup!"],
-      "responses": ["Heureux d'aider!", "À tout moment!", "Avec plaisir"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Quels articles avez-vous?",
-        "Quels types d'articles avez-vous?",
-        "Que vendez-vous?"
+        "Merci",
+        "Merci beaucoup",
+        "C'est gentil",
+        "Merci pour votre aide"
       ],
       "responses": [
-        "Nous vendons du café et du thé",
-        "Nous avons du café et du thé"
+        "De rien! Toujours là pour vous aider.",
+        "Avec plaisir!",
+        "Vous êtes bienvenu!"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "restaurants",
       "patterns": [
-        "Acceptez-vous les cartes de crédit?",
-        "Acceptez-vous Mastercard?",
-        "Puis-je payer avec Paypal?",
-        "Êtes-vous uniquement en espèces?"
+        "Quels sont les restaurants disponibles?",
+        "Quels restaurants puis-je choisir?",
+        "Où puis-je commander?"
       ],
       "responses": [
-        "Nous acceptons VISA, Mastercard et Paypal",
-        "Nous acceptons la plupart des principales cartes de crédit, et Paypal"
+        "Voici les restaurants disponibles:",
+        "Nos restaurants partenaires sont:"
+      ]
+    },
+    {
+      "tag": "categories",
+      "patterns": [
+        "Quelles sont les catégories de plats?",
+        "Je cherche des catégories de plats",
+        "Quels types de plats proposez-vous?"
+      ],
+      "responses": [
+        "Voici nos catégories de plats:",
+        "Nous avons les catégories suivantes:"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Montrez-moi le menu",
+        "Je voudrais voir le menu",
+        "Quels plats proposez-vous?"
+      ],
+      "responses": [
+        "Voici notre menu:",
+        "Découvrez nos délicieux plats:"
       ]
     },
     {
       "tag": "delivery",
       "patterns": [
-        "Combien de temps prend la livraison?",
-        "Combien de temps prend l'expédition?",
-        "Quand vais-je recevoir ma livraison?"
+        "Faites-vous la livraison?",
+        "Proposez-vous la livraison?",
+        "Puis-je me faire livrer?"
       ],
       "responses": [
-        "La livraison prend 2 à 4 jours",
-        "L'expédition prend 2 à 4 jours"
+        "Nous proposons la livraison dans la région.",
+        "La livraison est disponible pour votre zone."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "pickup",
       "patterns": [
-        "Raconte-moi une blague!",
-        "Dis-moi quelque chose de drôle!",
-        "Connaissez-vous une blague?"
+        "Est-ce que je peux venir chercher ma commande?",
+        "Puis-je venir chercher ma nourriture?",
+        "Offrez-vous le service de retrait?"
       ],
       "responses": [
-        "Pourquoi le hipster s'est-il brûlé la bouche? Il a bu le café avant qu'il ne soit cool.",
-        "Que dit le bison quand son fils part à l'université? Bison."
+        "Vous pouvez venir chercher votre commande au restaurant.",
+        "Nous offrons le service de retrait en restaurant."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Quels sont les modes de paiement acceptés?",
+        "Puis-je payer en espèces?",
+        "Acceptez-vous les cartes de crédit?"
+      ],
+      "responses": [
+        "Nous acceptons le paiement en espèces et par carte de crédit.",
+        "Vous pouvez payer en espèces ou par carte de crédit."
       ]
     }
   ]
